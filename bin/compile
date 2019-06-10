@@ -73,7 +73,7 @@ echo "done"
 
 minecraft_url="https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar"
 
-echo -n "-----> Installing Minecraft ${minecraft_version}... "
+echo -n "-----> Installing Minecraft..."
 curl -o minecraft.jar -s -L $minecraft_url
 mv minecraft.jar $BUILD_DIR/minecraft.jar
 echo "done"
